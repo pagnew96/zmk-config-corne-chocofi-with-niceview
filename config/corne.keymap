@@ -51,10 +51,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp N1            &kp N2        &kp N3        &kp N4        &kp N5          &kp N6      &kp N7            &kp N8      &kp N9           &kp N0        &kp BSPC
-&bt BT_CLR  &kp LEFT_SHIFT    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT    &kp DOWN          &kp UP      &kp RIGHT        &kp SQT       &trans
-&kp LSHFT   &kp LEFT_CONTROL  &trans        &trans        &trans        &kp GRAVE       &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOLUME_UP  &kp C_VOL_DN  &trans
-                                            &kp LGUI      &trans        &kp SPACE       &kp RET     &trans            &kp ESC
+&kp TAB     &kp N1            &kp N2  &kp N3    &kp N4  &kp N5       &kp N6      &kp N7            &kp N8      &kp N9           &kp N0        &kp BSPC
+&bt BT_CLR  &kp LEFT_SHIFT    &trans  &trans    &trans  &trans       &kp LEFT    &kp DOWN          &kp UP      &kp RIGHT        &kp SQT       &trans
+&kp LSHFT   &kp LEFT_CONTROL  &trans  &trans    &trans  &kp GRAVE    &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOLUME_UP  &kp C_VOL_DN  &trans
+                                      &kp LGUI  &trans  &kp SPACE    &kp RET     &trans            &kp ESC
             >;
 
             label = "NUMBER";
@@ -79,10 +79,10 @@
 
         FUN {
             bindings = <
-&trans  &kp F1   &kp F2   &kp F3  &kp F4       &kp F5             &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans
-&trans  &kp F11  &kp F12  &trans  &work_email  &email             &trans  &trans  &trans  &trans  &trans   &trans
-&trans  &trans   &trans   &trans  &trans       &kp PRINTSCREEN    &trans  &trans  &trans  &trans  &trans   &trans
-                          &trans  &trans       &trans             &trans  &trans  &trans
+&trans  &kp F1      &kp F2        &kp F3        &kp F4        &kp F5             &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans
+&trans  &kp F11     &kp F12       &trans        &work_email   &email             &trans  &trans  &trans  &trans  &trans   &trans
+&trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp PRINTSCREEN    &trans  &trans  &trans  &trans  &trans   &trans
+                                  &trans        &trans        &trans             &trans  &trans  &trans
             >;
 
             label = "FUNCTION";
